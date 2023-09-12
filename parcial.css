@@ -1,0 +1,177 @@
+header {
+    background-color: #333; 
+    color: white;
+    text-align: center; 
+    padding: 20px; 
+}
+
+
+header h1 {
+    margin: 0; 
+}
+
+
+.noticias {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px; 
+}
+
+.noticia {
+    flex: 1; 
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    margin: 0 10px; 
+}
+.li{
+    color: yellow;
+}
+
+.noticia h2 {
+    margin: 0; 
+}
+
+.noticia img {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    margin: 10px 0; 
+}
+
+.noticia a {
+    background-color: #333; 
+    color: white; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    margin-top: 10px; 
+}
+
+footer {
+    background-color: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+footer a {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 10px; 
+}.login-form {
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-form h2 {
+    text-align: center;
+}
+
+.login-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #555;
+}
+
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.registration-form h2 {
+    text-align: center;
+}
+
+.registration-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.registration-form .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.registration-form .input-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="tel"],
+.registration-form select,
+.registration-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-form .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.registration-form button {
+    flex: 1;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration-form button:hover {
+    background-color: #555;
+}
+.facebook-icon {
+    color: #FF0000; 
+  }
+  
+  .twitter-icon {
+    color: #FF0000; 
+  }
+  
+  .linkedin-icon {
+    color: #FF0000; 
+  }
